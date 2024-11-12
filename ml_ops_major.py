@@ -48,7 +48,7 @@ print(processor.get_feature_stats())
 
 """### Question 2"""
 
-!pip install mlflow
+# !pip install mlflow
 
 import mlflow
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
@@ -136,4 +136,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-mlflow ui
